@@ -1,0 +1,13 @@
+inherit kde4
+
+NAME="kbrickbuster"
+VERSION=14.12.3
+RELEASE=1
+CATEGORY="Games"
+SUMMARY="KDE Breakout game"
+DESCRIPTION="Part of the KDE games suite"
+md5sum=753450fec58cf45e53a70cc334e2c4da
+SRC_URI="http://pkgs.fedoraproject.org/repo/pkgs/kbrickbuster/kbrickbuster-${VERSION}-rename.tar.xz/${md5sum}/kbrickbuster-${VERSION}-rename.tar.xz"
+SRC_DIR="kbrickbuster-${VERSION}-rename"
+
+OBSOLETES="kbreakout"

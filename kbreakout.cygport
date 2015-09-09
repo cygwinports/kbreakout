@@ -1,8 +1,0 @@
-inherit kde4
-
-NAME="kbreakout"
-VERSION=14.12.3
-RELEASE=1
-CATEGORY="Games"
-SUMMARY="KDE Breakout game"
-DESCRIPTION="Part of the KDE games suite"
