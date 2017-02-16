@@ -1,13 +1,12 @@
-inherit kde4
+inherit kf5
 
 NAME="kbrickbuster"
-VERSION=15.04.3
+VERSION=16.04.3
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="KDE Brick busting game"
 DESCRIPTION="Part of the KDE games suite"
-md5sum=753450fec58cf45e53a70cc334e2c4da
-SRC_URI="http://pkgs.fedoraproject.org/repo/pkgs/kbrickbuster/kbrickbuster-${VERSION}-rename.tar.xz/${md5sum}/kbrickbuster-${VERSION}-rename.tar.xz"
-SRC_DIR="kbrickbuster-${VERSION}-rename"
+md5sum=a6206ca5edabdeb572d8638b5f9ed618
+SRC_URI="http://pkgs.fedoraproject.org/repo/pkgs/kbrickbuster/kbrickbuster-${VERSION}.tar.xz/${md5sum}/kbrickbuster-${VERSION}.tar.xz"
 
 OBSOLETES="kbreakout"
