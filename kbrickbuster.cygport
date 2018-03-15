@@ -1,12 +1,12 @@
 inherit kf5
 
 NAME="kbrickbuster"
-VERSION=17.08.3
+VERSION=17.12.3
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="KDE Brick busting game"
 DESCRIPTION="Part of the KDE games suite"
-sha512sum=8b4a19d870dadc95248351ef876f7b1ea2609a990c7821ec7b7a698e4054af1a652c57f8380a7b91d6b6933c01797627ec40dacbe481677d3287433260124816
-SRC_URI="http://pkgs.fedoraproject.org/repo/pkgs/kbrickbuster/kbrickbuster-${VERSION}.tar.xz/sha512/${sha512sum}/kbrickbuster-${VERSION}.tar.xz"
+sha512sum=4aee2ad04ea85b226174514d04523cd6c2f29d4a1b0c425f1c5766423126ec789f36599d7adc21906e274ea7cf01b10a417fbd8b1110ab042f8582ad8396434b
+SRC_URI="http://src.fedoraproject.org/repo/pkgs/kbrickbuster/kbrickbuster-${VERSION}.tar.xz/sha512/${sha512sum}/kbrickbuster-${VERSION}.tar.xz"
 
 OBSOLETES="kbreakout"
